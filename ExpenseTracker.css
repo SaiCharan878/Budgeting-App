@@ -1,0 +1,101 @@
+.expense-logger {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1e1e2f;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expense-logger h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.date-picker label,
+.payment-mode label,
+.expense-category label {
+  display: block;
+  margin-bottom: 8px;
+  color: #cfcfcf;
+  font-weight: 500;
+}
+
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: -webkit-fill-available;
+}
+
+input[type="date"]::placeholder {
+  color: #999;
+}
+
+input[type="number"]::placeholder {
+  color: #999;
+}
+
+select {
+  appearance: none;
+}
+
+.expense-category {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.total-expenses {
+  margin-top: 30px;
+  background-color: #29293d;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.expense-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  color: #333;
+}

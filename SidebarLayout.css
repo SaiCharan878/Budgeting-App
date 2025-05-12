@@ -1,0 +1,80 @@
+/* SidebarLayout.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #000000;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #1f1f1f, #2c2c2c);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+  }
+
+  .sidebar-layout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f6fa;
+    overflow: hidden;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00c6ff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .nav-links a {
+    color: #cccccc;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-links a:hover,
+  .nav-links .active {
+    background-color: #00c6ff;
+    color: #121212;
+  }
+  
+  .logout-btn {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ff2c2c;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 24px;
+    background: #e6e6e6;
+    overflow-y: auto;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+    border-left: 1px solid #333;
+  }
+  
+  
